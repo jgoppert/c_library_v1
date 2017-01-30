@@ -1042,7 +1042,8 @@ typedef enum MAV_SENSOR_TYPE
    MAV_SENSOR_TYPE_PITOT=8, /* Pitot tube | */
    MAV_SENSOR_TYPE_MOCAP=9, /* Motion capture | */
    MAV_SENSOR_TYPE_FLOW=10, /* Optical flow | */
-   MAV_SENSOR_TYPE_ENUM_END=11, /*  | */
+   MAV_SENSOR_TYPE_VISION=11, /* Vision | */
+   MAV_SENSOR_TYPE_ENUM_END=12, /*  | */
 } MAV_SENSOR_TYPE;
 #endif
 
